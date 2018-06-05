@@ -16,7 +16,7 @@ module ElasticAPM
       disable_environment_warning: false,
 
       log_path: nil,
-      log_level: Logger::DEBUG,
+      log_level: Logger::ERROR,
 
       max_queue_size: 500,
       flush_interval: 10,

@@ -23,7 +23,7 @@ if defined?(Rails)
 
         config.logger = Logger.new(nil)
         # config.logger = Logger.new(STDOUT)
-        config.logger.level = Logger::DEBUG
+        config.logger.level = Logger::ERROR
 
         config.eager_load = false
 
